@@ -29,7 +29,7 @@ const OurMission = () => {
                 portfolio, especially when just starting out.
               </p>
             </div>
-            <button className="rounded-2 px-3 py-2 bg-color-soil border-0 text-white fw-medium mt-4">
+            <button className="rounded-2 px-3 py-2 bg-color-soil border-0 text-white fw-medium mt-4 btns">
               Read More
             </button>
           </Col>

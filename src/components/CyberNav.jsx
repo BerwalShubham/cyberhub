@@ -13,8 +13,8 @@ const CyberNav = () => {
     document.body.style.overflow = "hidden";
   }
   return (
-    <section className="cyber-nav position-relative">
-     <div className="elipse_nav-our_mission"></div>
+    <section className="cyber-nav position-relative h-10">
+      <div className="elipse_nav-our_mission"></div>
       <div className="cstm-container">
         <div className="d-flex align-items-center justify-content-between">
           <div>
@@ -77,7 +77,7 @@ const CyberNav = () => {
                 <img width={18} height={18} src={mlogo} alt="boat" />
               </a>
             </div>
-            <button className="btn-connect-wallet rounded-2 px-3 py-2 bg-color-soil border-0 text-white fw-medium d-none d-sm-block">
+            <button className="btn-connect-wallet btns rounded-2 px-3 py-2 bg-color-soil border-0 text-white fw-medium d-none d-sm-block">
               Connect Wallet
             </button>
             <div className="hamburger" onClick={() => setnav(!nav)}>

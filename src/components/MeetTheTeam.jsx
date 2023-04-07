@@ -16,7 +16,6 @@ const MeetTheTeam = () => {
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
-    autoplay: true,
     responsive: [
       {
         breakpoint: 1200,
@@ -29,7 +28,16 @@ const MeetTheTeam = () => {
         breakpoint: 992,
         settings: {
           arrows: false,
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
           slidesToShow: 1,
+          slidesToScroll: 1,
         },
       },
       {
@@ -57,24 +65,27 @@ const MeetTheTeam = () => {
           Meet the<span className="color-soil"> Team</span>
         </h2>
         <Slider className="mt-5" {...settings}>
-          <Col className="px-2 ps-sm-5">
-            <div className="bg-white slides-border">
+          <Col className="ps-sm-3">
+            <div className="mx-1 bg-white slides-border">
               <Row className="align-items-center">
-                <Col className="" sm={6}>
+                <Col className="" xs={6}>
                   <div>
-                    <img className="w-100" src={varunmuthu} alt="varunmuthu" />
+                    <img
+                      className="varunmuthu"
+                      src={varunmuthu}
+                      alt="varunmuthu"
+                    />
                   </div>
                 </Col>
-                <Col className="my-3 my-sm-0" sm={6}>
+                <Col className="my-3 my-sm-0" xs={6}>
                   <div className="text-center">
                     <h2 className="fs-md fw-bold">Varun Muthu</h2>
                     <h3 className="fw-medium fs-xsm">Marketing Director</h3>
                     <a
-                      className="text-black"
+                      className="text-black word_break fs-xxsm line_height"
                       href="https://www.linkedin.com/in/varunmuthu1"
                     >
-                      https://www.linkedin.com/{" "}
-                      <span className="d-block">in/varunmuthu1</span>
+                      https://www.linkedin.com/ in/varunmuthu1
                     </a>
                   </div>
                   <div className="d-flex align-items-center gap-3 justify-content-center mt-3">
@@ -93,68 +104,66 @@ const MeetTheTeam = () => {
             </div>
           </Col>
 
-          <Col className="px-2 ps-sm-5">
-            <div className="bg-white slides-border">
+          <Col className="ps-sm-3">
+            <div className="mx-1 bg-white slides-border">
               <Row className="align-items-center">
-                <Col sm={6}>
+                <Col className="" xs={6}>
                   <div>
                     <img
-                      className="w-100"
+                      className="varunmuthu"
                       src={shubhsharma}
                       alt="shubhsharma"
                     />
                   </div>
                 </Col>
-                <Col className="my-3" sm={6}>
-                  <div className="text-center my-sm-0">
-                    <h2 className="fs-md fw-bold">Shubh Sharma</h2>
-                    <h3 className="fw-medium fs-xsm">Operations Director</h3>
-                    <a
-                      className="text-black"
-                      href="https://www.linkedin.com/in/shubhsharma01/"
-                    >
-                      https://www.linkedin.com/
-                      <span className="d-block">in/shubhsharma01/</span>
-                    </a>
-                  </div>
-                  <div className="d-flex align-items-center gap-3 justify-content-center mt-3">
-                    <div>
-                      <img src={discord} alt="discord" />
-                    </div>
-                    <div>
-                      <img src={twitter} alt="twitter" />
-                    </div>
-                    <div>
-                      <img src={mlogo} alt="mlogo" />
-                    </div>
-                  </div>
-                </Col>
-              </Row>
-            </div>
-          </Col>
-
-          <Col className="px-2 ps-sm-5">
-            <div className="bg-white slides-border">
-              <Row className="align-items-center">
-                <Col sm={6}>
-                  <div>
-                    <img
-                      className="w-100"
-                      src={shubhsharma}
-                      alt="shubhsharma"
-                    />
-                  </div>
-                </Col>
-                <Col className="p-0 px-sm-3 my-3 my-sm-0" sm={6}>
+                <Col className="my-3 my-sm-0" xs={6}>
                   <div className="text-center">
                     <h2 className="fs-md fw-bold">Shubh Sharma</h2>
                     <h3 className="fw-medium fs-xsm">Operations Director</h3>
                     <a
-                      className="text-black"
-                      href="https://www.linkedin.com/in/shubhsharma01/"
+                      className="text-black word_break fs-xxsm line_height"
+                      href="https://www.linkedin.com/in/varunmuthu1"
                     >
-                      https://www.linkedin.com/
-                      <span className="d-block">in/shubhsharma01/</span>
+                      https://www.linkedin.com/in/shubhsharma01/
+                    </a>
+                  </div>
+                  <div className="d-flex align-items-center gap-3 justify-content-center mt-3">
+                    <div>
+                      <img src={discord} alt="discord" />
+                    </div>
+                    <div>
+                      <img src={twitter} alt="twitter" />
+                    </div>
+                    <div>
+                      <img src={mlogo} alt="mlogo" />
+                    </div>
+                  </div>
+                </Col>
+              </Row>
+            </div>
+          </Col>
+
+          <Col className="ps-sm-3">
+            <div className="mx-1 bg-white slides-border">
+              <Row className="align-items-center">
+                <Col className="" xs={6}>
+                  <div>
+                    <img
+                      className="varunmuthu"
+                      src={varunmuthu}
+                      alt="varunmuthu"
+                    />
+                  </div>
+                </Col>
+                <Col className="my-3 my-sm-0" xs={6}>
+                  <div className="text-center">
+                    <h2 className="fs-md fw-bold">Varun Muthu</h2>
+                    <h3 className="fw-medium fs-xsm">Marketing Director</h3>
+                    <a
+                      className="text-black word_break fs-xxsm line_height"
+                      href="https://www.linkedin.com/in/varunmuthu1"
+                    >
+                      https://www.linkedin.com/ in/varunmuthu1
                     </a>
                   </div>
                   <div className="d-flex align-items-center gap-3 justify-content-center mt-3">

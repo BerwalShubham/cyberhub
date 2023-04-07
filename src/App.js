@@ -3,8 +3,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import CyberNav from "./components/CyberNav";
-import CyberHero from "./components/CyberHero";
 import OurMission from "./components/OurMission";
 import Partners from "./components/Partners";
 import OurAlgo from "./components/OurAlgo";
@@ -14,12 +12,13 @@ import MeetTheTeam from "./components/MeetTheTeam";
 import Faq from "./components/Faq";
 import CyberFooter from "./components/CyberFooter";
 import Roadmap from "./components/Roadmap";
+import CyberHeader from "./components/CyberHeader";
+import CyberNav from "./components/CyberNav";
 
 function App() {
   return (
     <>
-      <CyberNav />
-      <CyberHero />
+      <CyberHeader />
       <OurMission />
       <Partners />
       <OurAlgo />

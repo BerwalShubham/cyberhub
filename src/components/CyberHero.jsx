@@ -4,7 +4,7 @@ import parachute from "../assets/images/png/parachute-with-blue-ball.png";
 
 const CyberHero = () => {
   return (
-    <section className="py-5">
+    <section className="flex_grow d-flex flex-column align-items-center justify-content-center">
       <div className="cstm-container">
         <Row className="align-items-center flex-column-reverse flex-lg-row">
           <Col lg={6} className="text-center text-lg-start mt-5 mt-lg-0">
@@ -17,7 +17,7 @@ const CyberHero = () => {
               curabitur purus. Ullamcorper mattis risus suspendisse pretium
               tristique.
             </p>
-            <button className="rounded-2 px-3 py-2 bg-color-soil border-0 text-white fw-medium mt-4">
+            <button className="rounded-2 btns px-3 py-2 bg-color-soil border-0 text-white fw-medium mt-4">
               Explore Now
             </button>
           </Col>

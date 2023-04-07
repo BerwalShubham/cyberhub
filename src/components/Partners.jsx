@@ -9,7 +9,7 @@ const Partners = () => {
       <h2 className="text-white text-center fw-bold fs-xxl pt-5">
         Part<span className="color-soil">ners</span>
       </h2>
-      <section className="pb-5 bg-img-partners">
+      <section className="py-5 bg-img-partners">
         <div className="cstm-container py-xl-5">
           <div className="d-flex align-items-center justify-content-evenly flex-xl-row flex-column mt-xl-5">
             <div className="d-flex">
